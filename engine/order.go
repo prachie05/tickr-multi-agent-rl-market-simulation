@@ -14,3 +14,11 @@ type Order struct {
 	Side      Side
 	Timestamp int64
 }
+
+type Trade struct {
+	TradeID  int64
+	BuyerID  int64
+	SellerID int64
+	Price    int64
+	Quantity int64
+}
